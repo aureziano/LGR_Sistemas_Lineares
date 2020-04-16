@@ -1,5 +1,5 @@
 %% Routh-Hurwitz stability criterion
-%
+
 %  The Routh-Hurwitz stability criterion is a necessary (and frequently
 %  sufficient) method to establish the stability of a single-input,
 %  single-output(SISO), linear time invariant (LTI) control system.
