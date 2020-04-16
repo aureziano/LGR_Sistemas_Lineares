@@ -16,7 +16,7 @@
 %   Farzad Sagharchi ,Iran
 %   2007/11/12
 
-%% Initialization
+%% Initialization 
 clear ; close all; clc
 
 
@@ -93,16 +93,16 @@ rhTable;
 
 %   Print the stability result on screen
 if unstablePoles == 0
-    fprintf('~~~~~> Sistema Est·vel! <~~~~~\n')
+    fprintf('~~~~~> Sistema Est√°vel! <~~~~~\n')
 else
-    fprintf('~~~~~> N„o È um Sistema Est·vel! <~~~~~\n')
+    fprintf('~~~~~> N√£o √© um Sistema Est√°vel! <~~~~~\n')
 end
 
 fprintf('\n Number of right hand side poles =%2.0f\n',unstablePoles)
 
-reply = input('VocÍ quer que mostre as raizes? S/N ', 's');
+reply = input('Voc√™ quer que mostre as raizes? S/N ', 's');
 if reply == 's' || reply == 'S'
     sysRoots = roots(coeffVector);
-    fprintf('\n Dados os coeficientes polinomiais das raÌzes:\n');
+    fprintf('\n Dados os coeficientes polinomiais das ra√≠zes:\n');
     sysRoots;
 end
