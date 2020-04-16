@@ -1,4 +1,4 @@
-%Caluclo de Ganho do parametro K para obter a estabilidade do sistema 
+%%Caluclo de Ganho do parametro K para obter a estabilidade do sistema 
 %FTMF = 10/(s³ + ks² + 3s + 2)
 %
 K=1:0.1:5000; % Define a faixa para K de 1 a 5000 em incrementos de 1.
