@@ -1,7 +1,4 @@
-% G= tf(1,[1 25 10 0]);
-% rlocus (G);
-% rltool(G);
-% rlocfind(G);
+% Obter angulos para descobrir o LGR, para theta multiplo de 180°
 s = 0.86 + 7.44j;
 % s= s - (-0.406613378);
 G = (1)/(s^3 +25*s^2 + 10*s);
