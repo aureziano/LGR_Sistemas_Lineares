@@ -1,4 +1,4 @@
-%Calculo K para que que passe nos pontos 's'
+%% Calculo K para que que passe nos pontos 's'
 %FTMA = K/(s³+25s²+100s)
 %A condição para que se passe no LGR é que o modulo de FTMA = 1
 %Logo |K|=||M1|.|M2|.|M3|
